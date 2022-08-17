@@ -23,4 +23,4 @@ nbsphinx>=0.8.0
 sphinx-gallery>=0.8.0
 sphinx-panels
 myst-parser
-git+https://github.com/carnotresearch/cr-nimble@main
+cr-nimble @ git+https://github.com/carnotresearch/cr-nimble.git@main
