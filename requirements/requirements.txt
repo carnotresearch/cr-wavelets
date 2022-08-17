@@ -1,0 +1,12 @@
+chex>=0.0.4
+jax>=0.3.14
+jaxlib>=0.3.14
+numpy>=1.18.0
+sympy>=1.6
+scipy
+matplotlib
+pandas>=1.0.0
+requests>=2.20.0
+imageio
+click
+cr-nimble
