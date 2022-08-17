@@ -81,7 +81,7 @@ Examples
     :scale: 100%
     :target: https://www.codacy.com/gh/carnotresearch/cr-wavelets/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=carnotresearch/cr-wavelets&amp;utm_campaign=Badge_Grade
 
-.. |zenodo| image:: https://zenodo.org/badge/323566858.svg
+.. |zenodo| image:: https://zenodo.org/badge/525693334.svg
     :alt: DOI
     :scale: 100%
-    :target: https://zenodo.org/badge/latestdoi/323566858
+    :target: https://zenodo.org/badge/latestdoi/525693334
