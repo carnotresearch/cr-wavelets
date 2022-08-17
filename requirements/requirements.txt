@@ -9,4 +9,5 @@ pandas>=1.0.0
 requests>=2.20.0
 imageio
 click
-cr-nimble @ git+https://github.com/carnotresearch/cr-nimble.git@main
+cr-nimble
+
