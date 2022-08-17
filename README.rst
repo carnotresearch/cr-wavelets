@@ -2,7 +2,7 @@ Wavelets with JAX
 ==================================================================
 
 
-|pypi| |license| |zenodo| |docs| |unit_tests| |coverage| |joss|
+|pypi| |license| |zenodo| |docs| |unit_tests| |coverage|
 
 
 Introduction
@@ -21,8 +21,6 @@ It has been built using `Google JAX <https://jax.readthedocs.io/en/latest/>`_,
 which enables the same high level
 Python code to get efficiently compiled on CPU, GPU and TPU architectures
 using `XLA <https://www.tensorflow.org/xla>`_. 
-
-.. image:: docs/images/srr_cs.png
 
 For detailed documentation and usage, please visit `online docs <https://cr-wavelets.readthedocs.io/en/latest>`_.
 
