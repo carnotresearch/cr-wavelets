@@ -6,8 +6,22 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-* Refactored wavelets module from CR-Sparse into an independent CR-Wavelets library
+[Documentation](https://cr-wavelets.readthedocs.io/en/latest/)
+
+
+## [0.2.3] - 2022-08-17
+
+[Documentation](https://cr-wavelets.readthedocs.io/en/v0.2.3/)
+
+Initial release
+
+* Refactored wavelets module from [CR-Sparse]((https://cr-sparse.readthedocs.io/en/v0.2.2/))
+  into an independent CR-Wavelets library.
+
+Please note that this version is a follow up from the last CR-Sparse release v0.2.2.
+Hence, the starting version number for this library is a continuation from that.
 
 [Documentation](https://cr-wavelets.readthedocs.io/en/latest/)
 
-[Unreleased]: https://github.com/carnotresearch/cr-wavelets/compare/v0.2.2...HEAD
+[Unreleased]: https://github.com/carnotresearch/cr-wavelets/compare/v0.2.3...HEAD
+[0.2.3]: https://github.com/carnotresearch/cr-sparse/releases/tag/v0.2.3
