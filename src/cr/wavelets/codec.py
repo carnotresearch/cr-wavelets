@@ -13,14 +13,23 @@
 # limitations under the License.
 
 
-from cr.wavelets._src.codec.codec import (
+from cr.wavelets._src.codec.blocks import (
     decompose,
     reconstruct,
     threshold,
     scale_to_0_1,
     descale_from_0_1,
     quantize_1,
+    inv_quantize_1,
     quantize_to_prd_target,
-    combine_coefficients,
-    combine_binary_maps
+    remove_zeros,
+    add_zeros,
+    combine_arrays,
+    split_coefs_binmaps,
+    encode_cbss_to_bits,
+    decode_cbss_from_bits
+)
+
+from cr.wavelets._src.codec.codec_a import (
+    build_codec
 )
