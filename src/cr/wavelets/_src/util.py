@@ -45,7 +45,7 @@ modes = ["zero", "constant", "symmetric", "periodic",
              # "antisymmetric", "antireflect"
         ]
 
-def dwt_coeff_len(data_len, filter_len, mode):
+def dwt_coeff_len(data_len, filter_len, mode='symmetric'):
     """Returns the length of wavelet decomposition output based on data length, filter length and mode
     """
     if isinstance (filter_len, str):
@@ -62,6 +62,33 @@ def dwt_coeff_len(data_len, filter_len, mode):
         return (data_len + 1) // 2
     else:
         return (data_len + filter_len - 1) // 2
+
+def dwt_coeff_lengths(data_len, filter_len, max_level, mode='symmetric'):
+    """Returns the lengths of wavelet decomposition outputs up to a max_level
+    """
+    if isinstance (filter_len, str):
+        filter_len = build_wavelet(filter_len)
+        if filter_len is None: 
+            raise ValueError("Invalid wavelet")
+    if isinstance(filter_len, DiscreteWavelet):
+        filter_len = filter_len.dec_len
+    if data_len < 1:
+        raise ValueError("Value of data_len must be greater than zero.")
+    if filter_len < 1:
+        raise ValueError("Value of filter_len must be greater than zero.")
+
+    def mapper(x):
+        if mode == 'periodization':
+            return (x + 1) // 2
+        else:
+            return (x + filter_len - 1) // 2
+    output = []
+    for i in range(max_level):
+        data_len = mapper(data_len)
+        if data_len < 1:
+            break
+        output.append(data_len)
+    return output
 
 
 def pad_smooth(vector, pad_width, iaxis, kwargs):

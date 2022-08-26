@@ -144,6 +144,7 @@ from cr.wavelets._src.util import (
     pad,
     dwt_max_level,
     dwt_coeff_len,
+    dwt_coeff_lengths
 )
 
 # Utilities for continuous wavelets
