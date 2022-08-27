@@ -203,8 +203,86 @@ PyWavelets.
 Continuous Wavelets
 -----------------------------------
 
+.. rubric:: CWT following Torrence and Compo
 
-.. rubric:: Further Reading
+.. autosummary::
+    :toctree: _autosummary
 
-.. bibliography::
-   :filter: docname in docnames
+    cwt_tc_time
+    cwt_tc_frequency
+    cwt_tc
+    find_s0
+    find_optimal_scales
+    analyze
+
+
+.. rubric:: CWT following PyWavelets
+
+.. autosummary::
+    :toctree: _autosummary
+
+
+    build_continuous_wavelet
+    ContinuousWavelet
+    integrate_wavelet
+    central_frequency
+    scale2frequency
+    cont_wave_fun
+    int_wave_fun
+    psi_resample
+    cwt_id_time
+    cwt_id
+
+
+.. rubric:: Wavelet Functions
+
+.. autosummary::
+    :toctree: _autosummary
+
+    ricker
+    morlet
+    cmor
+
+
+Codec
+--------------------
+
+The library provides a set of utility functions
+which can be used to build wavelet based codecs.
+Sample codec has also been provided. A codec
+provides two functions: encoder and decoder.
+An encoder takes a signal block and generates
+a ``bitarray``. A decoder takes a ``bitarray``
+and reconstructs the signal block.
+
+
+.. currentmodule:: cr.wavelets.codec
+
+
+.. rubric:: Codec Building Blocks
+
+.. autosummary::
+    :toctree: _autosummary
+
+    threshold
+    scale_to_0_1
+    descale_from_0_1
+    quantize_1
+    inv_quantize_1
+    quantize_to_prd_target
+    remove_zeros
+    add_zeros
+    combine_arrays
+    split_coefs_binmaps
+    encode_cbss_to_bits
+    decode_cbss_from_bits
+
+
+.. rubric:: Sample Codec
+
+
+.. autosummary::
+    :toctree: _autosummary
+
+    build_codec
+

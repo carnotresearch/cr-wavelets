@@ -98,7 +98,8 @@ exclude_patterns = ['_build',
     '.DS_Store', 
     "**/.DS_Store", 
     ".ipynb_checkpoints", 
-    "**/.ipynb_checkpoints"
+    "**/.ipynb_checkpoints",
+    "requirements.txt"
     ]
 
 autosummary_generate = True

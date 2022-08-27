@@ -28,10 +28,10 @@ config.update("jax_enable_x64", True)
 # %% 
 # Let's import necessary libraries 
 import jax.numpy as jnp
-# CR-Wavelets libraries
-import cr.nimble as cnb
+# CR-Suite libraries
+from cr.nimble.dsp import hard_threshold_sorted
 import cr.wavelets as wt
-# Utilty functions to construct sinusoids
+# Utility functions to construct sinusoids
 import cr.nimble.dsp.signals as signals
 # Plotting
 import matplotlib.pyplot as plt
@@ -91,7 +91,7 @@ plt.plot(jnp.abs(f[750:1250]))
 
 # %% 
 # Multilevel wavelet decomposition
-# ------------------------------
+# ----------------------------------
 
 # Compute the multilevel wavelet decomposition
 coeffs = wt.wavedec(x, 'db4')
@@ -123,7 +123,7 @@ axs[1].plot(t, cd2[:n])
 # %% 
 # Locate the indices of largest entries (by magnitude) in the detail 
 # coefficients at first level
-idx, values = cnb.hard_threshold_sorted(cd1, 8)
+idx, values = hard_threshold_sorted(cd1, 8)
 print(idx)
 # %%
 # After ignoring the first couple of entries for the boundary effects
