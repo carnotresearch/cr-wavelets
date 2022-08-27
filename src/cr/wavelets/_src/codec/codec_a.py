@@ -17,6 +17,11 @@ from .blocks import *
 
 def build_codec(wavelet_name, level,
     block_length, max_prd, thresholds):
+    """Builds an encoder and decoder function for a given choice
+    of wavelet, decomposition level, signal block length, target
+    percentage root mean square difference and coefficient energy thresholding
+    targets
+    """
     wavelet = crwt.to_wavelet(wavelet_name)
 
 

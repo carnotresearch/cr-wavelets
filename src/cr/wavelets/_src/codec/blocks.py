@@ -39,6 +39,8 @@ def reconstruct(coeffs, wavelet, level):
 
 
 def threshold(coeffs, energy_fractions):
+    """Thresholds multi-level wavelet decomposition coefficients by fraction of energy
+    """
     out_coeffs = []
     out_binmaps = []
     for coef, frac in zip(coeffs, energy_fractions):
@@ -49,6 +51,8 @@ def threshold(coeffs, energy_fractions):
 
 
 def scale_to_0_1(coeffs):
+    """Scales multi-level wavelet decomposition coefficients to [0,1] range
+    """
     out_coeffs = []
     out_shifts = []
     out_scales = []
@@ -61,6 +65,8 @@ def scale_to_0_1(coeffs):
 
 
 def descale_from_0_1(coeffs, shifts, scales):
+    """Descales multi-level wavelet decomposition coefficients from [0,1] range
+    """
     out_coeffs = []
     for coef, shift, scale in zip(coeffs, shifts, scales):
         coef = crdsp.descale_from_0_1(coef, shift, scale)
@@ -69,16 +75,23 @@ def descale_from_0_1(coeffs, shifts, scales):
 
 
 def quantize_1(scaled_coeffs, bits):
+    """Quantizes multi-level wavelet decomposition coefficients in [0,1] range to bits per sample
+    """
     quantized_coeffs = [crdsp.quantize_1(coef, bits) for coef in scaled_coeffs]
     return quantized_coeffs
 
 def inv_quantize_1(quantized_coeffs, bits):
+    """Inverse quantizes multi-level wavelet decomposition coefficients in [0,1] range from bits per sample
+    """
     coeffs = [crdsp.inv_quantize_1(coef, bits) for coef in quantized_coeffs]
     return coeffs
 
 
 def quantize_to_prd_target(signal, wavelet, level, 
     scaled_coeffs, shifts, scales, binmaps, max_prd):
+    """Quantizes multi-level wavelet decomposition coefficients in [0,1] range
+    to a given target percentage root mean square difference
+    """
     num_bits = 9
     cur_prd = 0
     prd_vals = np.empty(num_bits)
@@ -99,9 +112,13 @@ def quantize_to_prd_target(signal, wavelet, level,
 
 
 def remove_zeros(coeffs, binmaps):
+    """Removes zeros from thresholded multi-level wavelet decomposition coefficients
+    """
     return [coef[binmap.astype(bool)] for coef, binmap in zip(coeffs, binmaps)]
 
 def add_zeros(coeffs, binmaps):
+    """Adds zeros back to nonzero thresholded multi-level wavelet decomposition coefficients
+    """
     result = []
     for coef, binmap in zip(coeffs, binmaps):
         out = jnp.zeros(binmap.shape)
@@ -109,8 +126,10 @@ def add_zeros(coeffs, binmaps):
         result.append(out)
     return result
 
-def combine_arrays(binmaps):
-    return jnp.concatenate(binmaps)
+def combine_arrays(arrays):
+    """Combines multiple arrays (of binary maps or coefficients) into a single array
+    """
+    return jnp.concatenate(arrays)
 
 
 def split_coefs_binmaps(wavelet, level, num_samples, combined_coeffs, combined_binmaps):
@@ -138,6 +157,10 @@ def split_coefs_binmaps(wavelet, level, num_samples, combined_coeffs, combined_b
 
 
 def encode_cbss_to_bits(coeffs, binmaps, shifts, scales, qbits):
+    """Encodes multi-level wavelet decomposition quantized coefficients, their
+    binary maps, scaling shifts and scales and number of quantization bits into
+    a single bitarray
+    """
     a = bitarray()
     a.extend(int2ba(qbits, 4))
     for value in shifts:
@@ -154,6 +177,10 @@ def encode_cbss_to_bits(coeffs, binmaps, shifts, scales, qbits):
 
 
 def decode_cbss_from_bits(wavelet, level, num_samples, bits: bitarray):
+    """Decodes multi-level wavelet decomposition quantized coefficients, their
+    binary maps, scaling shifts and scales and number of quantization bits from
+    a bitarray
+    """
     shifts = []
     scales = []
     qbits = ba2int(bits[:4])
