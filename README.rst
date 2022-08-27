@@ -9,7 +9,7 @@ Introduction
 -------------------
 
 
-CR-Wavelets is a Python library that enables efficiently solving
+``CR-Wavelets`` is a Python library that enables efficiently solving
 a wide variety of sparse representation based signal processing problems.
 It is a cohesive collection of sub-libraries working together. Individual
 sub-libraries provide functionalities for:
@@ -26,6 +26,16 @@ For detailed documentation and usage, please visit `online docs <https://cr-wave
 
 For theoretical background, please check online notes at `Topics in Signal Processing <https://tisp.indigits.com>`_
 and references therein (still under development).
+
+``CR-Wavelets`` is part of
+`CR-Suite <https://carnotresearch.github.io/cr-suite/>`_.
+
+Related libraries:
+
+* `CR-Nimble <https://cr-nimble.readthedocs.io>`_
+* `CR-Sparse <https://cr-sparse.readthedocs.io>`_
+
+
 
 Supported Platforms
 ----------------------
@@ -81,36 +91,29 @@ Contribution Guidelines/Code of Conduct
 .. |docs| image:: https://readthedocs.org/projects/cr-wavelets/badge/?version=latest
     :target: https://cr-wavelets.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-    :scale: 100%
 
 .. |unit_tests| image:: https://github.com/carnotresearch/cr-wavelets/actions/workflows/ci.yml/badge.svg
     :alt: Unit Tests
-    :scale: 100%
     :target: https://github.com/carnotresearch/cr-wavelets/actions/workflows/ci.yml
 
 
 .. |pypi| image:: https://badge.fury.io/py/cr-wavelets.svg
     :alt: PyPI cr-wavelets
-    :scale: 100%
     :target: https://badge.fury.io/py/cr-wavelets
 
 .. |coverage| image:: https://codecov.io/gh/carnotresearch/cr-wavelets/branch/master/graph/badge.svg?token=JZQW6QU3S4
     :alt: Coverage
-    :scale: 100%
     :target: https://codecov.io/gh/carnotresearch/cr-wavelets
 
 
 .. |license| image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
     :alt: License
-    :scale: 100%
     :target: https://opensource.org/licenses/Apache-2.0
 
 .. |codacy| image:: https://app.codacy.com/project/badge/Grade/36905009377e4a968124dabb6cd24aae
     :alt: Codacy Badge
-    :scale: 100%
     :target: https://www.codacy.com/gh/carnotresearch/cr-wavelets/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=carnotresearch/cr-wavelets&amp;utm_campaign=Badge_Grade
 
 .. |zenodo| image:: https://zenodo.org/badge/525693334.svg
     :alt: DOI
-    :scale: 100%
     :target: https://zenodo.org/badge/latestdoi/525693334
