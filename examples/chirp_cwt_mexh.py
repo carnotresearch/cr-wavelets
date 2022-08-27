@@ -17,7 +17,7 @@ import jax.numpy as jnp
 # CR-Suite libraries
 import cr.wavelets as wt
 from cr.nimble.dsp import power_spectrum
-# Utilty functions to construct sinusoids
+# Utility functions to construct sinusoids
 import cr.nimble.dsp.signals as signals
 # Plotting
 import matplotlib.pyplot as plt
