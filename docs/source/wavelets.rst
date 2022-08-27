@@ -120,6 +120,7 @@ High-level API
     pad
     dwt_max_level
     dwt_coeff_len
+    dwt_coeff_lengths
     up_sample
 
 Lower-level API
