@@ -92,7 +92,7 @@ class DiscreteWavelet(NamedTuple):
     """Number of vanishing moments of the scaling function"""
 
     def __str__(self):
-        """Returns the string representation of the discrete wavelet object
+        """Returns the string representation
         """
         s = []
         for x in [
