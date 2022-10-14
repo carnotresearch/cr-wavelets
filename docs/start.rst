@@ -32,6 +32,13 @@ Directly from our GITHUB repository:
     python -m pip install git+https://github.com/carnotresearch/cr-wavelets.git
 
 
+.. note::
+
+    If you are on Windows, JAX is not yet officially supported.
+    However, you can install an unofficial JAX build for windows
+    from https://github.com/cloudhan/jax-windows-builder.
+    This works quite well for development purposes.
+
 
 Examples
 ----------------
