@@ -16,6 +16,7 @@
 from enum import Enum, auto
 from typing import NamedTuple, List, Dict, Tuple
 
+import jax
 import jax.numpy as jnp
 import jax.numpy.fft as jfft
 
@@ -74,13 +75,13 @@ class DiscreteWavelet(NamedTuple):
     """Name of the wavelet family"""
     short_name: str = ''
     """Short name of the wavelet family"""
-    dec_hi: jnp.DeviceArray = None
+    dec_hi: jax.Array = None
     """Decomposition high pass filter"""
-    dec_lo: jnp.DeviceArray = None
+    dec_lo: jax.Array = None
     """Decomposition low pass filter"""
-    rec_hi: jnp.DeviceArray = None
+    rec_hi: jax.Array = None
     """Reconstruction high pass filter"""
-    rec_lo: jnp.DeviceArray = None
+    rec_lo: jax.Array = None
     """Reconstruction low pass filter"""
     dec_len: int = 0
     """Length of decomposition filters"""
