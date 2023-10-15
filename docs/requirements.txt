@@ -1,13 +1,7 @@
-chex>=0.0.4
-jax>=0.3.14
-jaxlib>=0.3.14
-numpy>=1.20.0
-scipy>=1.6
-sympy>=1.6
-matplotlib
-imageio
-click
-requests
+cr-nimble>=0.4.0
+chex>=0.1.7
+imageio>=2.31
+click>=8.1
 pillow
 pandas
 PyWavelets
@@ -23,4 +17,3 @@ nbsphinx>=0.8.0
 sphinx-gallery>=0.8.0
 sphinx-panels
 myst-parser
-cr-nimble>=0.3.0

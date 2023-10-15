@@ -8,14 +8,21 @@ All notable changes to this project will be documented in this file.
 
 [Documentation](https://cr-wavelets.readthedocs.io/en/latest/)
 
+## [0.4.0] - 2023-10-15
+
+[Documentation](https://cr-wavelets.readthedocs.io/en/v0.4.0/)
+
+This is a maintenance release to align the library with
+JAX 0.4.x.
+
 ## [0.3.0] - 2022-08-27
 
 [Documentation](https://cr-wavelets.readthedocs.io/en/v0.3.0/)
 
 ### Added
 
-- Building blocks for wavelet based compression
-- Sample end to end wavelet based codec
+- Building blocks for wavelet-based compression
+- Sample end-to-end wavelet-based codec
 - `dwt_coeff_lengths`
 - ECG data compression example
 
@@ -32,9 +39,10 @@ Initial release
 * Refactored wavelets module from [CR-Sparse]((https://cr-sparse.readthedocs.io/en/v0.2.2/))
   into an independent CR-Wavelets library.
 
-Please note that this version is a follow up from the last CR-Sparse release v0.2.2.
-Hence, the starting version number for this library is a continuation from that.
+Please note that this version is a follow-up from the last CR-Sparse release v0.2.2.
+Hence, the starting version number for this library is a continuation of that.
 
-[Unreleased]: https://github.com/carnotresearch/cr-wavelets/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/carnotresearch/cr-wavelets/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/carnotresearch/cr-wavelets/compare/0.3.0...v0.4.0
 [0.3.0]: https://github.com/carnotresearch/cr-wavelets/compare/0.2.4...v0.3.0
 [0.2.4]: https://github.com/carnotresearch/cr-wavelets/releases/tag/v0.2.4
