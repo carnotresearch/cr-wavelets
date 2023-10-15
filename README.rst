@@ -9,18 +9,10 @@ Introduction
 -------------------
 
 
-``CR-Wavelets`` is a Python library that enables efficiently solving
-a wide variety of sparse representation based signal processing problems.
-It is a cohesive collection of sub-libraries working together. Individual
-sub-libraries provide functionalities for:
-wavelets, linear operators, greedy and convex optimization 
-based sparse recovery algorithms, subspace clustering, 
-standard signal processing transforms,
-and linear algebra subroutines for solving sparse linear systems. 
-It has been built using `Google JAX <https://jax.readthedocs.io/en/latest/>`_, 
-which enables the same high level
-Python code to get efficiently compiled on CPU, GPU and TPU architectures
-using `XLA <https://www.tensorflow.org/xla>`_. 
+``CR-Wavelets`` is a port of `PyWavelets` for
+`Google JAX <https://jax.readthedocs.io/en/latest/>`_. 
+It enables running Wavelet decomposition and reconstruction
+algorithms on GPU and TPU hardware.
 
 For detailed documentation and usage, please visit `online docs <https://cr-wavelets.readthedocs.io/en/latest>`_.
 
@@ -43,7 +35,7 @@ Supported Platforms
 ``CR-Wavelets`` can run on any platform supported by ``JAX``. 
 We have tested ``CR-Wavelets`` on Mac and Linux platforms and Google Colaboratory.
 
-* The latest code in the library has been tested against JAX 0.3.14.
+* The latest code in the library has been tested against JAX 0.4.
 
 ``JAX`` is not officially supported on Windows platforms at the moment. 
 Although, it is possible to build it from source using Windows Subsystems for Linux.
