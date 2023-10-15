@@ -1,0 +1,6 @@
+﻿cr.wavelets.psi\_resample
+=========================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: psi_resample

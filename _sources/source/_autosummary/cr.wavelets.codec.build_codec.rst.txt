@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.build\_codec
+==============================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: build_codec

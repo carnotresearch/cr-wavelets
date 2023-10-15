@@ -1,0 +1,6 @@
+﻿cr.wavelets.idwt\_axis\_
+========================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: idwt_axis_

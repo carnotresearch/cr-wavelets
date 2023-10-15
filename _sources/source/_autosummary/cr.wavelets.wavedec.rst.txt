@@ -1,0 +1,6 @@
+﻿cr.wavelets.wavedec
+===================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: wavedec

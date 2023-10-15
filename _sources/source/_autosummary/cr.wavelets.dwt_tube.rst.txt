@@ -1,0 +1,6 @@
+﻿cr.wavelets.dwt\_tube
+=====================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: dwt_tube

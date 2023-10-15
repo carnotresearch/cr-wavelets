@@ -1,0 +1,6 @@
+﻿cr.wavelets.modes
+=================
+
+.. currentmodule:: cr.wavelets
+
+.. autodata:: modes

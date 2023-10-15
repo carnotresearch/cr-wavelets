@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.add\_zeros
+============================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: add_zeros

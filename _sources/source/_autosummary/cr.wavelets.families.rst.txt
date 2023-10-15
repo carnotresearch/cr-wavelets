@@ -1,0 +1,6 @@
+﻿cr.wavelets.families
+====================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: families

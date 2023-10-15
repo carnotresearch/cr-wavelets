@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.remove\_zeros
+===============================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: remove_zeros

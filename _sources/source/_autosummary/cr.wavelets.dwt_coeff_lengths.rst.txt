@@ -1,0 +1,6 @@
+﻿cr.wavelets.dwt\_coeff\_lengths
+===============================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: dwt_coeff_lengths

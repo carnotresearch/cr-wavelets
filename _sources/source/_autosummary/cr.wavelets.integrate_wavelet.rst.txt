@@ -1,0 +1,6 @@
+﻿cr.wavelets.integrate\_wavelet
+==============================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: integrate_wavelet

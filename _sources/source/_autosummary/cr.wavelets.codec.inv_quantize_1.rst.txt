@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.inv\_quantize\_1
+==================================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: inv_quantize_1

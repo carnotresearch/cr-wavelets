@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.threshold
+===========================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: threshold

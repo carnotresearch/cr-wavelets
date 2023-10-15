@@ -1,0 +1,6 @@
+﻿cr.wavelets.cmor
+================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: cmor

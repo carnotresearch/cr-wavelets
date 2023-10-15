@@ -1,0 +1,6 @@
+﻿cr.wavelets.idwt\_column
+========================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: idwt_column

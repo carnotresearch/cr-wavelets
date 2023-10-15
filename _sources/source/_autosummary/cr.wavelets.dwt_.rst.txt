@@ -1,0 +1,6 @@
+﻿cr.wavelets.dwt\_
+=================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: dwt_

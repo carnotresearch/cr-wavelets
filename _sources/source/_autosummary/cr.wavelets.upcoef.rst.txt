@@ -1,0 +1,6 @@
+﻿cr.wavelets.upcoef
+==================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: upcoef

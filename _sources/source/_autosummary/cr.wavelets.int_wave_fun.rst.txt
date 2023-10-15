@@ -1,0 +1,6 @@
+﻿cr.wavelets.int\_wave\_fun
+==========================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: int_wave_fun

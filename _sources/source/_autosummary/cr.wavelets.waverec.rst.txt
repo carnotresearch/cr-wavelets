@@ -1,0 +1,6 @@
+﻿cr.wavelets.waverec
+===================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: waverec

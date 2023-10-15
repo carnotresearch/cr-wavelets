@@ -1,0 +1,6 @@
+﻿cr.wavelets.morlet
+==================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: morlet

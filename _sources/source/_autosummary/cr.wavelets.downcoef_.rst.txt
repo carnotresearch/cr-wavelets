@@ -1,0 +1,6 @@
+﻿cr.wavelets.downcoef\_
+======================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: downcoef_

@@ -1,0 +1,46 @@
+﻿cr.wavelets.ContinuousWavelet
+=============================
+
+.. currentmodule:: cr.wavelets
+
+.. autoclass:: ContinuousWavelet
+
+   
+   .. automethod:: __init__
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~ContinuousWavelet.__init__
+      ~ContinuousWavelet.count
+      ~ContinuousWavelet.index
+      ~ContinuousWavelet.wavefun
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ContinuousWavelet.bandwidth_frequency
+      ~ContinuousWavelet.biorthogonal
+      ~ContinuousWavelet.center_frequency
+      ~ContinuousWavelet.compact_support
+      ~ContinuousWavelet.complex_cwt
+      ~ContinuousWavelet.domain
+      ~ContinuousWavelet.family_name
+      ~ContinuousWavelet.fbsp_order
+      ~ContinuousWavelet.functions
+      ~ContinuousWavelet.lower_bound
+      ~ContinuousWavelet.name
+      ~ContinuousWavelet.orthogonal
+      ~ContinuousWavelet.short_name
+      ~ContinuousWavelet.support_width
+      ~ContinuousWavelet.symmetry
+      ~ContinuousWavelet.upper_bound
+   
+   

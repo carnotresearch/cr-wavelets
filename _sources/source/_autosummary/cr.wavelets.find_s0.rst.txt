@@ -1,0 +1,6 @@
+﻿cr.wavelets.find\_s0
+====================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: find_s0

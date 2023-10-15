@@ -1,0 +1,6 @@
+﻿cr.wavelets.build\_discrete\_wavelet
+====================================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: build_discrete_wavelet

@@ -1,0 +1,6 @@
+﻿cr.wavelets.find\_optimal\_scales
+=================================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: find_optimal_scales

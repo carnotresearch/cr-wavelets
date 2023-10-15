@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.quantize\_to\_prd\_target
+===========================================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: quantize_to_prd_target

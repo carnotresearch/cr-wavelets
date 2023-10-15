@@ -1,0 +1,6 @@
+﻿cr.wavelets.cwt\_id\_time
+=========================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: cwt_id_time

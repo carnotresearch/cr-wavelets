@@ -1,0 +1,6 @@
+﻿cr.wavelets.ricker
+==================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: ricker

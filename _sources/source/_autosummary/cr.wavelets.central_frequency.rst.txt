@@ -1,0 +1,6 @@
+﻿cr.wavelets.central\_frequency
+==============================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: central_frequency

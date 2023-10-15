@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.split\_coefs\_binmaps
+=======================================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: split_coefs_binmaps

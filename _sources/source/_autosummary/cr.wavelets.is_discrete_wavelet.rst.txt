@@ -1,0 +1,6 @@
+﻿cr.wavelets.is\_discrete\_wavelet
+=================================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: is_discrete_wavelet

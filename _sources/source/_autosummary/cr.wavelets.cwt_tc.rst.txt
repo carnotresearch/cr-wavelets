@@ -1,0 +1,6 @@
+﻿cr.wavelets.cwt\_tc
+===================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: cwt_tc

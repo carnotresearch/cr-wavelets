@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.descale\_from\_0\_1
+=====================================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: descale_from_0_1

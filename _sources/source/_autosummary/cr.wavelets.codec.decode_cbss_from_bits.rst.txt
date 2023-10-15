@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.decode\_cbss\_from\_bits
+==========================================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: decode_cbss_from_bits

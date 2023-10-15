@@ -1,0 +1,6 @@
+﻿cr.wavelets.build\_continuous\_wavelet
+======================================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: build_continuous_wavelet

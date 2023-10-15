@@ -1,0 +1,6 @@
+﻿cr.wavelets.dwt\_max\_level
+===========================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: dwt_max_level

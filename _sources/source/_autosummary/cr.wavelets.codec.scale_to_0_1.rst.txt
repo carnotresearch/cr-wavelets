@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.scale\_to\_0\_1
+=================================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: scale_to_0_1

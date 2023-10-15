@@ -1,0 +1,6 @@
+﻿cr.wavelets.scale2frequency
+===========================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: scale2frequency

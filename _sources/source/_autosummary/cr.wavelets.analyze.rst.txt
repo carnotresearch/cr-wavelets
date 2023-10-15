@@ -1,0 +1,6 @@
+﻿cr.wavelets.analyze
+===================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: analyze

@@ -1,0 +1,6 @@
+﻿cr.wavelets.up\_sample
+======================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: up_sample

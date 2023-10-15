@@ -1,0 +1,6 @@
+﻿cr.wavelets.codec.combine\_arrays
+=================================
+
+.. currentmodule:: cr.wavelets.codec
+
+.. autofunction:: combine_arrays

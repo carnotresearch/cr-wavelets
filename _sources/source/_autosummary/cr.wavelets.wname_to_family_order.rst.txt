@@ -1,0 +1,6 @@
+﻿cr.wavelets.wname\_to\_family\_order
+====================================
+
+.. currentmodule:: cr.wavelets
+
+.. autofunction:: wname_to_family_order
